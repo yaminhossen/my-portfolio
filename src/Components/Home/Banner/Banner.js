@@ -1,14 +1,16 @@
 import React from 'react';
+import './Banner.css'
+import yamin from '../../../images/Yamin.jpg'
 
 const Banner = () => {
     return (
         <div>
-            <div className='d-flex'>
-                <div>
-                    <h3 className='mt-4 ms-4'>Hi i am yamin hossen. I am a web developer</h3>
+            <div className='myself d-flex'>
+                <div className='fw-bold w-75'>
+                    <h2>Hi! i am <span>Yamin Hossen</span>. <br /> I am a <span>Web <br /> Developer</span>. Innovetion is my <span>Passion</span></h2>
                 </div>
-                <div>
-                    <h2 className='ps-4 pt-4 ms-4 mt-4 '>This is the picture section.</h2>
+                <div className='image'>
+                    <img className='h-100' src={yamin} alt="" />
                 </div>
             </div>
         </div>
