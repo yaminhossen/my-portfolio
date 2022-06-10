@@ -5,8 +5,8 @@ import yamin from '../../../images/Yamin.jpg'
 const Banner = () => {
     return (
         <div>
-            <div className='myself d-flex'>
-                <div className='fw-bold w-75'>
+            <div className='myself text-center '>
+                <div className='fw-bold '>
                     <h2>Hi! i am <span>Yamin Hossen</span>. <br /> I am a <span>Web <br /> Developer</span>. Innovetion is my <span>Passion</span></h2>
                 </div>
                 <div className='image'>

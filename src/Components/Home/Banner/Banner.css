@@ -1,20 +1,49 @@
-.myself h2 {
-    padding: 150px;
-    /* margin-right: 60px; */
-    font-size: 45px;
+.myself {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .myself span {
     color: orange;
 }
 
-.image {
+/* .image {
     padding-right: 150px;
     padding-top: 100px;
     padding-bottom: 60px;
-}
+} */
 
 .image img {
     border-radius: 5px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media only screen and (min-width:1023px) {
+    .myself {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .myself h2 {
+        padding: 50px;
+        font-size: 45px;
+        padding-left: 50px;
+    }
+
+    .myself img {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .myself {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .myself img {
+        height: auto;
+        width: auto;
+    }
 }

@@ -1,0 +1,47 @@
+.aboutme {
+    background-color: rgb(254, 201, 246);
+}
+
+.aboutimg {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aspan {
+    color: rgb(122, 12, 116);
+    font-size: 35px;
+    /* font-size: large; */
+}
+
+.aboutimg img {
+    border-radius: 7px;
+}
+
+.about h2 {
+    padding: 30px;
+}
+
+.about1 {
+    text-align: end;
+}
+
+@media only screen and (min-width:1023px) {
+    .about {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* .myself h2 {
+        padding: 50px;
+        font-size: 45px;
+        padding-left: 50px;
+    } */
+}
+
+@media only screen and (max-width:576px) {
+    .about {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
