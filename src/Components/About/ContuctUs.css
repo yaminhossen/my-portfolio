@@ -1,9 +1,10 @@
 .mx-auto {
     /* background-color: skyblue; */
     margin-top: 50px;
-    border: 2px solid orange;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 7px;
-    margin-bottom: 50px;
+    /* padding-bottom: 5px; */
+    padding: 5px;
 }
 
 .form {
@@ -26,4 +27,18 @@
     margin-bottom: 10px;
     border-radius: 7px;
     /* background-color: blue; */
+}
+
+.form textarea {
+    display: block;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: large;
+    border: none;
+    background-color: rgb(247, 248, 251);
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
 }
